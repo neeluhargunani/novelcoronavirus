@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="wrap">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="{{ url_for('globaltable') }}"><img src="{{url_for('static', filename='images/cb9f2cca4e688ddc4599aacf68c6c37b.gif')}}"alt="logo" style="width:45px;" class="img-fluid"><span class="text-primary ml-1">covid-19 live status</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link text-primary"  href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="{{ url_for('globaltable') }}">Global Table</a>
+          </li>
+
+             <li class="nav-item">
+            <a class="nav-link text-primary" href="{{ url_for('precaution') }}">Precaution</a>
+          </li>
+
+        </ul>
+
+      </div>
+      </div>
+    </nav>
+    <br><br>
+    <hr>
+     <br><br> <br><br>
+<div class="container mt-5"><div class="row"><div class="col-md-12 col-sm-12 col-xl-12 col-lg-12"><div class="card bshdow"><div class="card-body"><h3>Thankyou For visiting the application.....!</h3> <h4>Please do Motivate With Your valuable Feedback..... </h4><h4>Your Feedback Is Very Important for my growth and productivity </h4>
+    <h4 class="mt-2">Developer Python Contact Form Will Be Update Soon.....</h4></div></div></div></div></div>
+ <br><br> <br><br>
+<hr>
+
+</div>
+{% endblock %}

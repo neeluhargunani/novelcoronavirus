@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="wrap">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="{{ url_for('globaltable') }}"><img src="{{url_for('static', filename='images/cb9f2cca4e688ddc4599aacf68c6c37b.gif')}}"alt="logo" style="width:45px;" class="img-fluid"><span class="text-primary ml-1">covid-19 live status</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link text-primary"  href="{{ url_for('home') }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="">Global Table</a>
+          </li>
+
+             <li class="nav-item">
+            <a class="nav-link text-primary" href="">Precaution<span class="sr-only">(current)</span> </a>
+          </li>
+
+        </ul>
+
+      </div>
+      </div>
+    </nav>
+<div class="container">
+    <div class="row">
+       <div class="col-md-12 col=sm-12 col-lg-12 col-xl-12">
+           <div class="row">
+        <div class="col-md-6 col=sm-12 col-lg-6 col-xl-6">
+             <div class="page-header"> <h4>Symptoms</h4></div>
+            <div class="card">
+
+                <div class="card-body">
+              <img src="{{url_for('static', filename='images/symp.png')}}" class="img-fluid">
+                <h5>Signs and symptoms of coronavirus disease 2019 (COVID-19) may appear two to 14 days after exposure. This time after exposure and before having symptoms is called the incubation period. Common signs and symptoms can include:</h5>
+               <ul>
+    <li>Fever</li>
+    <li>Cough</li>
+    <li>Tiredness</li>
+</ul>
+<p>Early symptoms of <abbr title="coronavirus disease 2019">COVID-19</abbr> may include a loss of taste or smell.</p>
+<p>Other symptoms can include:</p>
+<ul>
+    <li>Shortness of breath or difficulty breathing</li>
+    <li>Muscle aches</li>
+    <li>Chills</li>
+    <li>Sore throat</li>
+<li>Runny nose</li>
+<li>Headache</li>
+<li>Chest pain</li>
+</ul>
+                    <p>This list is not all inclusive. Other less common symptoms have been reported, such as rash, nausea, vomiting and diarrhea. Children have similar symptoms to adults and generally have mild illness.</p>
+
+<p>The severity of <abbr title="coronavirus disease 2019">COVID-19</abbr> symptoms can range from very mild to severe. Some people may have only a few symptoms, and some people may have no symptoms at all. Some people may experience worsened symptoms, such as worsened shortness of breath and pneumonia, about a week after symptoms start.</p>
+
+<p>People who are older have a higher risk of serious illness from <abbr title="coronavirus disease 2019">COVID-19</abbr>, and the risk increases with age. People who have existing chronic medical conditions also may have a higher risk of serious illness. Serious medical conditions that increase the risk of serious illness from <abbr title="coronavirus disease 2019">COVID-19</abbr> include:</p>
+
+<ul>
+<li>Serious heart diseases, such as heart failure, coronary artery disease or cardiomyopathy</li>
+<li>Cancer</li>
+<li>Chronic obstructive pulmonary disease (COPD)</li>
+<li>Type 2 diabetes</li>
+<li>Severe obesity</li>
+<li>Chronic kidney disease</li>
+<li>Sickle cell disease</li>
+<li>Weakened immune system from solid organ transplants </li>
+</ul>
+
+<p>Other conditions may increase the risk of serious illness, such as: </p>
+
+<ul>
+<li>Asthma</li>
+<li>Liver disease</li>
+<li>Chronic lung diseases such as cystic fibrosis</li>
+<li>Brain and nervous system conditions</li>
+<li>Weakened immune system from bone marrow transplant, HIV or some medications</li>
+<li>Type 1 diabetes</li>
+<li>High blood pressure</li>
+</ul>
+
+<p>This list is not all inclusive. Other underlying medical conditions may increase your risk of serious illness from <abbr title="coronavirus disease 2019">COVID-19</abbr>.</p>
+
+
+
+            <h3>When to see a doctor</h3><p>If you have <abbr title="coronavirus disease 2019">COVID-19</abbr> symptoms or you've been in contact with someone diagnosed with <abbr title="coronavirus disease 2019">COVID-19</abbr>, contact your doctor or clinic right away for medical advice. Tell your health care team about your symptoms and possible exposure before you go to your appointment.</p>
+
+<p>If you have emergency <abbr title="coronavirus disease 2019">COVID-19</abbr> signs and symptoms, seek care immediately. Emergency signs and symptoms can include:</p>
+<ul>
+<li>Trouble breathing</li>
+<li>Persistent chest pain or pressure</li>
+<li>Inability to stay awake</li>
+<li>New confusion</li>
+<li>Blue lips or face</li>
+</ul>
+
+<p>If you have signs or symptoms of <abbr title="coronavirus disease 2019">COVID-19</abbr>, contact your doctor or clinic for guidance. Let your doctor know if you have other chronic medical conditions, such as heart disease or lung disease. During the pandemic, it's important to make sure health care is available for those in greatest need.</p>
+ <h2>Causes</h2><p>Infection with the new coronavirus (severe acute respiratory syndrome coronavirus 2, or SARS-CoV-2) causes coronavirus disease 2019 (<abbr title="coronavirus disease 2019">COVID-19</abbr>).</p>
+
+<p>The virus appears to spread easily among people, and more continues to be discovered over time about how it spreads. Data has shown that it spreads from person to person among those in close contact (within about 6 feet, or 2 meters). The virus spreads by respiratory droplets released when someone with the virus coughs, sneezes or talks. These droplets can be inhaled or land in the mouth or nose of a person nearby.</p>
+
+<p>It can also spread if a person touches a surface with the virus on it and then touches his or her mouth, nose or eyes, although this isn't considered to be a main way it spreads.</p>
+
+
+            <h2>Risk factors</h2><p>Risk factors for <abbr title="coronavirus disease 2019">COVID-19</abbr> appear to include:</p>
+<ul>
+<li>Close contact (within 6 feet, or 2 meters) with someone who has <abbr title="coronavirus disease 2019">COVID-19</abbr></li>
+<li>Being coughed or sneezed on by an infected person</li>
+</ul>
+
+
+
+            <h2>Complications</h2><p>Although most people with <abbr title="coronavirus disease 2019">COVID-19</abbr> have mild to moderate symptoms, the disease can cause severe medical complications and lead to death in some people. Older adults or people with existing chronic medical conditions are at greater risk of becoming seriously ill with <abbr title="coronavirus disease 2019">COVID-19</abbr>.</p>
+
+<p>Complications can include:</p>
+<ul>
+<li>Pneumonia and trouble breathing </li>
+<li>Organ failure in several organs</li>
+<li>Heart problems</li>
+<li>A severe lung condition that causes a low amount of oxygen to go through your bloodstream to your organs (acute respiratory distress syndrome)</li>
+<li>Blood clots</li>
+<li>Acute kidney injury</li>
+<li>Additional viral and bacterial infections</li>
+</ul>
+
+
+
+
+
+</div>
+                </div>
+            </div>
+
+               <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="page-header"> <h4>Prevention</h4></div>
+            <div class="card">
+
+                <div class="card-body">
+                    <img src="{{url_for('static', filename='images/avoid.png')}}" class="img-fluid mt-3">
+                     <h3 class="mt-3"> Wash your hands frequently and carefully</h3>
+                       <p>Use warm water and soap and rub your hands for at least 20 seconds. Work the lather to your wrists, between your fingers, and under your fingernails. You can also use an antibacterial and antiviral soap. </p>
+
+                <p>Although there is no vaccine available to prevent <abbr title="coronavirus disease 2019">COVID-19</abbr>, you can take steps to reduce your risk of infection. <abbr title="World Health Organization">WHO</abbr> and <abbr title="Centers for Disease Control and Prevention">CDC</abbr> recommend following these precautions for avoiding <abbr title="coronavirus disease 2019">COVID-19</abbr>:</p>
+ <img src="{{url_for('static', filename='images/hndwsh1.png')}}" class="img-fluid mt-3">
+                    <ul>
+
+<li>Avoid large events and mass gatherings.</li>
+<li>Avoid close contact (within about 6 feet, or 2 meters) with anyone who is sick or has symptoms.</li>
+<li>Stay home as much as possible and keep distance between yourself and others (within about 6 feet, or 2 meters), especially if you have a higher risk of serious illness. Keep in mind some people may have <abbr title="coronavirus disease 2019">COVID-19</abbr> and spread it to others, even if they don't have symptoms or don't know they have <abbr title="coronavirus disease 2019">COVID-19</abbr>.</li>
+<li>Wash your hands often with soap and water for at least 20 seconds, or use an alcohol-based hand sanitizer that contains at least 60% alcohol.</li>
+<li>Cover your face with a cloth face mask in public spaces, such as the grocery store, where it's difficult to avoid close contact with others, especially if you're in an area with ongoing community spread. Only use nonmedical cloth masks &mdash; surgical masks and N95 respirators should be reserved for health care providers.</li>
+<li>Cover your mouth and nose with your elbow or a tissue when you cough or sneeze. Throw away the used tissue. Wash your hands right away.</li>
+<li>Avoid touching your eyes, nose and mouth.</li>
+<li>Avoid sharing dishes, glasses, towels, bedding  and other household items if you're sick.</li>
+<li>Clean and disinfect high-touch surfaces, such as doorknobs, light switches, electronics and counters, daily.</li>
+<li>Stay home from work, school and public areas if you're sick, unless you're going to get medical care. Avoid public transportation, taxis and ride-sharing if you're sick.</li>
+</ul>
+
+<p>If you have a chronic medical condition and may have a higher risk of serious illness, check with your doctor about other ways to protect yourself.</p>
+
+
+            <h3>Travel</h3><p>If you're planning to travel, first check the <abbr title="Centers for Disease Control and Prevention">CDC</abbr> and <abbr title="World Health Organization">WHO</abbr> websites for updates and advice. Also look for any health advisories that may be in place where you plan to travel. You may also want to talk with your doctor if you have health conditions that make you more susceptible to respiratory infections and complications.</p>
+
+
+                </div>
+</div>
+    </div>
+</div>
+       </div>
+    </div>
+</div>
+
+    <div class="footer w3ls">
+  <div class="container">
+      <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-8 col-xl-8"> <div class="w3ls-social-icons-2"><p class="text-light mt-3">Designed And Developed By Neelam Hargunani
+
+          For More Details <span><a href="{{ url_for('contact') }}" type ="button" class="text-info"><big>Click here</big> </a></span> To Contact Developer </p></div></div>
+           <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
+    <div class="w3ls-social-icons-2 ml-auto ">
+      <a class="facebook" href="https://www.facebook.com/mydevlopingsite/"><i class="fa fa-facebook"></i></a>
+      <a class="twitter" href="https://twitter.com/neelamh1000"><i class="fa fa-twitter"></i></a>
+      <a class="pinterest" href="https://plus.google.com/u/0"><i class="fa fa-google-plus"></i></a>
+      <a class="linkedin" href="https://www.linkedin.com/in/neelam-hargunani-054034108/"><i class="fa fa-linkedin"></i></a>
+</div>
+           </div>
+    </div>
+
+  </div>
+
+</div>
+</div>
+{% endblock %}
