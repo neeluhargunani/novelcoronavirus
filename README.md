@@ -1,4 +1,4 @@
-# novelcoronavirus
+# novelcoronavirus my web link https://pypiproject.herokuapp.com/
 This is my first application in python flask and jinja of dynamic dashboard of covid 19 live status updates and IDE is  pycharm
 As im an experienced ui developer of 4years work and i had already worked in bootstrap3,4, html-5, css-3 including jquery in my company projects so i had used bootstrap 4 and python flask but not used custom jquery javascript whatever jquery is used it is default from bootstrap 
 In This Project of novelcoronavirus analysed api used for tables and charts, mapping and userinputs to get and post data of covid cases globaly 
